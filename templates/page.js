@@ -29,7 +29,14 @@ const Background = styled(Layer)`
 
 const Effect2 = styled(Layer)`
   backdrop-filter: blur(3px);
-  background-color: rgba(67, 70, 222, 0.55);
+  /* background-color: #4346de8C; */
+  background-color: ${props => props.color};
+
+  /* background-color: #9799ec90; */
+  /* background-color: #81ecec60; */
+  /* background-color: #ffeaa760; */
+  /* background-color: #55efc460; */
+  /* background-color: #e1705570; */
 `;
 
 const Content = styled(Layer)`
@@ -98,6 +105,7 @@ export default function Hello({ variables }) {
     // section = "This template is generated dynamically",
     img = background,
     bottom = "$ npx create-flayyer-app --help",
+    color = '9799ec90',
     minutes,
   } = variables;
 
@@ -109,7 +117,7 @@ export default function Hello({ variables }) {
   return (
     <div>
       <Background src={img} />
-      <Effect2 />
+      <Effect2 color={`#${color}`} />
       <Content>
         <Title>
           {title && (
