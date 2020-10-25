@@ -9,13 +9,13 @@
     "lint": "eslint --fix '*/**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-components": "^5.1.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "@flayyer/cli": "^1.4.0",
-    "eslint": "^7.5.0",
-    "eslint-plugin-react": "^7.20.3"
+    "@flayyer/cli": "^1.6.1",
+    "eslint": "^7.12.0",
+    "eslint-plugin-react": "^7.21.5"
   }
 }
