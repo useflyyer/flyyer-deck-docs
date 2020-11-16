@@ -59,13 +59,13 @@ export const Title = styled.h1`
   margin: 0;
 `;
 const TitleText = styled.span`
-color: #182334;
-font-size: 3rem;
-font-weight: 600;
+  color: #182334;
+  font-size: 3rem;
+  font-weight: 600;
 `;
 const Section = styled.span`
-font-size: 6rem;
-font-weight: 600;
+  font-size: 6rem;
+  font-weight: 600;
 `;
 
 const BottomThing = styled(Layer)`
@@ -83,7 +83,7 @@ const BottomThing = styled(Layer)`
 const Code = styled.code`
   color: white;
   font-size: 35px;
-  font-family: "Andale Mono";
+  font-family: "Andale Mono", monospace, monospace;
 `;
 
 const Read = styled.span`

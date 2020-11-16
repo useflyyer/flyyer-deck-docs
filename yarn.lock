@@ -917,10 +917,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@flayyer/cli@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@flayyer/cli/-/cli-1.7.0.tgz#a78805ecf20cd81eff8b3da4d4f43ea35f9dcd89"
-  integrity sha512-9wdld+3nZKYd5HlEEeOgxuRWDwPLYFdU4snkM5KuyrZBzYYJAs8WuS1xcZgS1jGTe0dBmnsSFA0t1+hPXOQu5A==
+"@flayyer/cli@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@flayyer/cli/-/cli-1.8.0.tgz#56bda35dedd22a4eeab0dafb8677172c5ce64cdc"
+  integrity sha512-wQ/h35isGmwdd0H9Z8pzufY8nU9t9JeiKWIZkZY3xEfRULO2BFxBpNqIiBLy5nN/ieotIRB9NuVrk7+ua8/Yyg==
   dependencies:
     "@oclif/command" "^1.8.0"
     "@oclif/config" "^1.17.0"
