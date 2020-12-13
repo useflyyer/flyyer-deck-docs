@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@flayyer/cli": "^1.9.1",
-    "@flayyer/flayyer-types": "^1.2.0",
+    "@flayyer/flayyer-types": "^1.2.1",
     "eslint": "^7.15.0",
     "eslint-plugin-react": "^7.21.5"
   }
