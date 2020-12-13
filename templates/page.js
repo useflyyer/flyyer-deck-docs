@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { TemplateProps } from "@flayyer/flayyer-types"; // eslint-disable-line no-unused-vars
 
 import background from "../static/bg.jpg";
 import svg from "../static/watch.svg";
@@ -97,7 +98,10 @@ const Clock = styled.img.attrs({ src: svg })`
   width: 27px;
 `
 
-// Make sure to 'export default' a React component
+/**
+ * Make sure to default export a React component
+ * @param {TemplateProps} [props] - Flayyer props.
+ */
 export default function Hello({ variables }) {
   const {
     title = "FLAYYER DOCS",
