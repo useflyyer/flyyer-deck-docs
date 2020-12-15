@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { TemplateProps } from "@flayyer/flayyer-types"; // eslint-disable-line no-unused-vars
 
 import background from "../static/bg.jpg";
+import logoWhite from "../static/logo-white.png";
 import svg from "../static/watch.svg";
 
 import "./reset.css";
@@ -84,6 +85,8 @@ const BottomThing = styled(Layer)`
 const Code = styled.code`
   color: white;
   font-size: 35px;
+  white-space: nowrap;
+  overflow: hidden;
   font-family: "Andale Mono", monospace, monospace;
 `;
 
@@ -102,7 +105,7 @@ const Clock = styled.img.attrs({ src: svg })`
  * Make sure to default export a React component
  * @param {TemplateProps} [props] - Flayyer props.
  */
-export default function Hello({ variables }) {
+export default function Hello({ agent, variables }) {
   const {
     title = "FLAYYER DOCS",
     section = "Welcome",
@@ -116,6 +119,17 @@ export default function Hello({ variables }) {
   function parseMinutes(n) {
     if (n === 1) return "1 minute"
     return `${n} minutes`
+  }
+
+  if (agent.name === "whatsapp") {
+    return (
+      <div>
+        <Background src={img} />
+        <Effect2 color={`#${color}`} />
+        <Content>
+          <img style={{width: "80%"}} src={logoWhite} />
+        </Content>
+      </div>)
   }
 
   return (
